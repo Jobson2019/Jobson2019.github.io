@@ -124,6 +124,9 @@ footer {
 	margin-left: 100px;
 	background-color: aliceblue;
 	border-radius: 25px;
+	max-width: auto;
+	max-height: auto;
+	object-fit: auto;
 
 }
 
@@ -153,14 +156,23 @@ footer {
 
 }
 
+.pad-four {
+	background-color: azure;
+	border-radius: 10px;
+}
+
 .image-one {
 	border-radius:25px;
+	
 }
 
 ul{
 	list-style-type: none;
 }
-	
+
+.fit{
+	object-fit: cover;
+}
 
 
 
